@@ -120,16 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:8000',
-    'https://portfolio-production-33da.up.railway.app'
-    
-],
 
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:8000',
-    'https://portfolio-production-33da.up.railway.app'
-]
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
