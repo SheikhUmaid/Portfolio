@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2dc3xw@x)(7^)z3&$&da)h4_qs$3cmzv^tylwy!*h(bn(9t+vy
 DEBUG = True
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vercel.com', 'localhost', '.vercel.app'']
 # CSRF_TRUSTED_ORIGINS = ALLOWED_HOSTS
 
 
